@@ -1,0 +1,163 @@
+{
+  "common": {
+    "helseflow": "HelseFlow",
+    "login": "Logg inn",
+    "logout": "Logg ut",
+    "welcome": "Velkommen, {{name}}!",
+    "signIn": "Logg inn",
+    "signingIn": "Logger inn...",
+    "register": "Registrer deg",
+    "email": "E-post",
+    "password": "Passord",
+    "forgotPassword": "Glemt passord?",
+    "dontHaveAccount": "Har du ikke en konto? Registrer deg",
+    "createAccount": "Opprett en konto",
+    "fullName": "Fullt navn",
+    "alreadyHaveAccount": "Har du allerede en konto?",
+    "saveChanges": "Lagre endringer",
+    "dashboard": "Dashbord",
+    "profile": "Profil",
+    "settings": "Innstillinger",
+    "logVitals": "Loggfør vitale mål",
+    "findDoctor": "Finn en lege",
+    "adminMenu": "Adminmeny",
+    "patientMenu": "Pasientmeny",
+    "analytics": "Analyse",
+    "patientManagement": "Pasientadministrasjon",
+    "guidelines": "Retningslinjer",
+    "menu": "Meny",
+    "healthHistory": "Helsehistorikk",
+    "myAppointments": "Mine avtaler"
+  },
+  "loginPage": {
+    "title": "Logg inn på HelseFlow"
+  },
+  "registerPage": {
+    "title": "Opprett en konto"
+  },
+  "patientDashboard": {
+    "title": "Pasientdashbord",
+    "riskAssessment": "AI Risikovurdering",
+    "latestVitals": "Siste vitale mål",
+    "healthRecommendation": "Helseanbefaling",
+    "loadingDashboard": "Laster dashborddata...",
+    "errorLoadingDashboard": "Feil ved lasting av dashborddata.",
+    "riskLevel": "Din risiko for hypertensjon er for øyeblikket",
+    "riskAssessmentDate": "Sist vurdert:",
+    "lastUpdated": "Sist oppdatert:",
+    "noVitalsRecorded": "Ingen vitale mål registrert ennå.",
+    "recommendationText": "Basert på dine nylige data, anbefaler Helsedirektoratet å redusere saltinntaket."
+  },
+  "profilePage": {
+    "title": "Min profil",
+    "age": "Alder",
+    "region": "Region",
+    "riskFactors": "Risikofaktorer (kommaseparert)"
+  },
+  "logVitalsPage": {
+    "title": "Loggfør dine daglige vitale mål",
+    "bloodPressureSystolic": "Blodtrykk (systolisk)",
+    "bloodPressureDiastolic": "Blodtrykk (diastolisk)",
+    "pulse": "Puls (slag/min)",
+    "weight": "Vekt (kg)",
+    "howAreYouFeeling": "Hvordan føler du deg i dag?",
+    "moodAwful": "Fryktelig",
+    "moodBad": "Dårlig",
+    "moodOkay": "Greit",
+    "moodGood": "Bra",
+    "moodGreat": "Fantastisk",
+    "saveLog": "Lagre logg"
+  },
+  "findDoctorPage": {
+    "title": "Finn en lege",
+    "searchPlaceholder": "Søk etter legens navn...",
+    "allSpecialties": "Alle spesialiteter",
+    "viewProfileAndBook": "Se profil og bestill",
+    "loadingDoctors": "Laster leger...",
+    "failedToLoadDoctors": "Klarte ikke å laste leger.",
+    "noDoctorsFound": "Ingen leger funnet som samsvarer med søket ditt."
+  },
+  "doctorProfilePage": {
+    "title": "Legeprofil: {{name}}",
+    "bioPlaceholder": "Dr. {{name}} er en svært erfaren {{specialty}} med en lidenskap for pasientbehandling. Han/hun har praktisert i over 15 år og er dedikert til å tilby personlige behandlingsplaner.",
+    "bookAppointment": "Bestill time",
+    "calendarPlaceholder": "Timebestillingskalender kommer her.",
+    "confirmBooking": "Bekreft bestilling",
+    "loadingProfile": "Laster legeprofil...",
+    "errorLoadingProfile": "Feil ved lasting av legeprofil.",
+    "doctorNotFound": "Legen ble ikke funnet.",
+    "bookingError": "Klarte ikke å bestille time. Vennligst prøv igjen.",
+    "bookingSuccess": "Time bestilt!",
+    "bookingInProgress": "Bestiller..."
+  },
+  "appointmentCalendar": {
+    "availableSlots": "Ledige timer",
+    "noSlotsAvailable": "Ingen ledige timer for denne legen."
+  },
+  "healthHistoryPage": {
+    "title": "Helsehistorikk",
+    "loadingVitals": "Laster vitale mål...",
+    "errorLoadingVitals": "Feil ved lasting av vitale mål.",
+    "noVitalsFound": "Ingen vitale mål funnet.",
+    "bloodPressureTrends": "Blodtrykkstrender",
+    "pulseAndWeightTrends": "Puls- og vekttrender",
+    "systolic": "Systolisk",
+    "diastolic": "Diastolisk",
+    "pulse": "Puls",
+    "weight": "Vekt"
+  },
+  "myAppointmentsPage": {
+    "title": "Mine avtaler",
+    "loadingAppointments": "Laster avtaler...",
+    "errorLoadingAppointments": "Feil ved lasting av avtaler.",
+    "noAppointmentsFound": "Ingen avtaler funnet.",
+    "doctor": "Lege",
+    "specialty": "Spesialitet",
+    "time": "Tid",
+    "reason": "Årsak",
+    "status": "Status"
+  },
+  "patientDetailPage": {
+    "title": "Pasientdetaljer: {{name}}",
+    "loadingPatient": "Laster pasientdetaljer...",
+    "errorLoadingPatient": "Feil ved lasting av pasientdetaljer.",
+    "patientNotFound": "Pasienten ble ikke funnet.",
+    "profileInformation": "Profilinformasjon",
+    "appointments": "Avtaler",
+    "appointmentPlaceholder": "Avtaledetaljer vil vises her.",
+    "noAppointments": "Ingen avtaler funnet for denne pasienten."
+  },
+  "adminDashboard": {
+    "title": "Admin Dashbord",
+    "regionalHealthStatistics": "Regional helsestatistikk",
+    "mapVisualization": "Kartvisualisering kommer her."
+  },
+  "patientListPage": {
+    "title": "Pasientadministrasjon",
+    "searchPlaceholder": "Søk pasienter...",
+    "addNewPatient": "Legg til ny pasient",
+    "name": "Navn",
+    "email": "E-post",
+    "age": "Alder",
+    "region": "Region",
+    "actions": "Handlinger",
+    "view": "Vis",
+    "delete": "Slett",
+    "loadingPatients": "Laster pasienter...",
+    "failedToLoadPatients": "Klarte ikke å laste pasienter.",
+    "noPatientsFound": "Ingen pasienter funnet som samsvarer med søket ditt.",
+    "minAge": "Min alder",
+    "maxAge": "Maks alder",
+    "allRegions": "Alle regioner",
+    "Oslo": "Oslo",
+    "Bergen": "Bergen",
+    "Trondheim": "Trondheim",
+    "Stavanger": "Stavanger"
+  },
+  "guidelinesPage": {
+    "title": "Nasjonale helseretningslinjer",
+    "searchPlaceholder": "Søk retningslinjer...",
+    "allCategories": "Alle kategorier",
+    "readMore": "Les mer"
+  }
+}

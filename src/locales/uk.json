@@ -1,0 +1,171 @@
+{
+  "common": {
+    "helseflow": "HelseFlow",
+    "login": "Увійти",
+    "logout": "Вийти",
+    "welcome": "Ласкаво просимо, {{name}}!",
+    "signIn": "Увійти",
+    "signingIn": "Вхід...",
+    "register": "Зареєструватися",
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "forgotPassword": "Забули пароль?",
+    "dontHaveAccount": "Немає облікового запису? Зареєструйтесь",
+    "createAccount": "Створити обліковий запис",
+    "fullName": "Повне ім'я",
+    "alreadyHaveAccount": "Вже маєте обліковий запис?",
+    "saveChanges": "Зберегти зміни",
+    "dashboard": "Панель управління",
+    "profile": "Профіль",
+    "settings": "Налаштування",
+    "logVitals": "Записати показники",
+    "findDoctor": "Знайти лікаря",
+    "adminMenu": "Меню адміністратора",
+    "patientMenu": "Меню пацієнта",
+    "analytics": "Аналітика",
+    "patientManagement": "Управління пацієнтами",
+    "guidelines": "Настанови",
+    "menu": "Меню",
+    "healthHistory": "Історія здоров'я"
+  },
+  "loginPage": {
+    "title": "Увійти до HelseFlow"
+  },
+  "registerPage": {
+    "title": "Створити обліковий запис"
+  },
+  "patientDashboard": {
+    "title": "Панель управління пацієнта",
+    "riskAssessment": "Оцінка ризиків ШІ",
+    "latestVitals": "Останні показники",
+    "healthRecommendation": "Рекомендації щодо здоров'я",
+    "loadingDashboard": "Завантаження даних панелі...",
+    "errorLoadingDashboard": "Помилка завантаження даних панелі.",
+    "overallRiskLevel": "Загальний рівень ризику",
+    "riskLevel": "Рівень ризику",
+    "riskAssessmentDate": "Остання оцінка:",
+    "lastUpdated": "Останнє оновлення:",
+    "noVitalsRecorded": "Життєві показники ще не записані.",
+    "recommendationText": "На основі ваших останніх даних, Helsedirektoratet рекомендує зменшити споживання солі.",
+    "noRiskAssessment": "Оцінка ризиків ще недоступна.",
+    "noRecommendations": "Наразі рекомендації відсутні.",
+    "contributingFactors": "Фактори, що сприяють",
+    "riskType": {
+      "hypertension": "Гіпертонія",
+      "diabetes": "Діабет",
+      "obesity": "Ожиріння"
+    }
+  },
+  "profilePage": {
+    "title": "Мій профіль",
+    "age": "Вік",
+    "region": "Регіон",
+    "riskFactors": "Фактори ризику (через кому)"
+  },
+  "logVitalsPage": {
+    "title": "Запишіть свої щоденні показники",
+    "bloodPressureSystolic": "Артеріальний тиск (систолічний)",
+    "bloodPressureDiastolic": "Артеріальний тиск (діастолічний)",
+    "pulse": "Пульс (уд/хв)",
+    "weight": "Вага (кг)",
+    "howAreYouFeeling": "Як ви себе почуваєте сьогодні?",
+    "moodAwful": "Жахливо",
+    "moodBad": "Погано",
+    "moodOkay": "Нормально",
+    "moodGood": "Добре",
+    "moodGreat": "Чудово",
+    "saveLog": "Зберегти запис"
+  },
+  "findDoctorPage": {
+    "title": "Знайти лікаря",
+    "searchPlaceholder": "Пошук за ім'ям лікаря...",
+    "allSpecialties": "Всі спеціальності",
+    "viewProfileAndBook": "Переглянути профіль та записатись",
+    "loadingDoctors": "Завантаження лікарів...",
+    "failedToLoadDoctors": "Не вдалося завантажити лікарів.",
+    "noDoctorsFound": "Лікарів за вашими критеріями не знайдено."
+  },
+  "doctorProfilePage": {
+    "title": "Профіль лікаря: {{name}}",
+    "bioPlaceholder": "Доктор {{name}} — висококваліфікований {{specialty}} з пристрастю до догляду за пацієнтами. Він/Вона практикує понад 15 років і присвячений/а наданню індивідуальних планів лікування.",
+    "bookAppointment": "Записатися на прийом",
+    "calendarPlaceholder": "Календар запису буде тут.",
+    "confirmBooking": "Підтвердити запис",
+    "loadingProfile": "Завантаження профілю лікаря...",
+    "errorLoadingProfile": "Помилка завантаження профілю лікаря.",
+    "doctorNotFound": "Лікаря не знайдено.",
+    "bookingError": "Не вдалося записатися на прийом. Будь ласка, спробуйте ще раз.",
+    "bookingSuccess": "Запис успішно підтверджено!",
+    "bookingInProgress": "Запис..."
+  },
+  "appointmentCalendar": {
+    "availableSlots": "Доступні слоти",
+    "noSlotsAvailable": "Немає доступних слотів для цього лікаря."
+  },
+  "healthHistoryPage": {
+    "title": "Історія здоров'я",
+    "loadingVitals": "Завантаження життєвих показників...",
+    "errorLoadingVitals": "Помилка завантаження життєвих показників.",
+    "noVitalsFound": "Життєвих показників не знайдено.",
+    "bloodPressureTrends": "Тенденції артеріального тиску",
+    "pulseAndWeightTrends": "Тенденції пульсу та ваги",
+    "systolic": "Систолічний",
+    "diastolic": "Діастолічний",
+    "pulse": "Пульс",
+    "weight": "Вага"
+  },
+  "myAppointmentsPage": {
+    "title": "Мої записи на прийом",
+    "loadingAppointments": "Завантаження записів...",
+    "errorLoadingAppointments": "Помилка завантаження записів.",
+    "noAppointmentsFound": "Записів на прийом не знайдено.",
+    "doctor": "Лікар",
+    "specialty": "Спеціальність",
+    "time": "Час",
+    "reason": "Причина",
+    "status": "Статус"
+  },
+  "patientDetailPage": {
+    "title": "Деталі пацієнта: {{name}}",
+    "loadingPatient": "Завантаження деталей пацієнта...",
+    "errorLoadingPatient": "Помилка завантаження деталей пацієнта.",
+    "patientNotFound": "Пацієнта не знайдено.",
+    "profileInformation": "Інформація про профіль",
+    "appointments": "Записи на прийом",
+    "appointmentPlaceholder": "Деталі запису будуть відображені тут.",
+    "noAppointments": "Записів на прийом для цього пацієнта не знайдено."
+  },
+  "adminDashboard": {
+    "title": "Панель адміністратора",
+    "regionalHealthStatistics": "Регіональна статистика здоров'я",
+    "mapVisualization": "Візуалізація карти буде тут."
+  },
+  "patientListPage": {
+    "title": "Управління пацієнтами",
+    "searchPlaceholder": "Пошук пацієнтів...",
+    "addNewPatient": "Додати нового пацієнта",
+    "name": "Ім'я",
+    "email": "Електронна пошта",
+    "age": "Вік",
+    "region": "Регіон",
+    "actions": "Дії",
+    "view": "Переглянути",
+    "delete": "Видалити",
+    "loadingPatients": "Завантаження пацієнтів...",
+    "failedToLoadPatients": "Не вдалося завантажити пацієнтів.",
+    "noPatientsFound": "Пацієнтів за вашими критеріями не знайдено.",
+    "minAge": "Мінімальний вік",
+    "maxAge": "Максимальний вік",
+    "allRegions": "Всі регіони",
+    "Oslo": "Осло",
+    "Bergen": "Берген",
+    "Trondheim": "Тронгейм",
+    "Stavanger": "Ставангер"
+  },
+  "guidelinesPage": {
+    "title": "Національні настанови щодо здоров'я",
+    "searchPlaceholder": "Пошук настанов...",
+    "allCategories": "Всі категорії",
+    "readMore": "Читати далі"
+  }
+}

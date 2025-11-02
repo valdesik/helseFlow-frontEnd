@@ -1,0 +1,212 @@
+{
+  "common": {
+    "helseflow": "HelseFlow",
+    "login": "Login",
+    "logout": "Logout",
+    "welcome": "Welcome, {{name}}!",
+    "signIn": "Sign In",
+    "signingIn": "Signing In...",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account? Register",
+    "createAccount": "Create an Account",
+    "fullName": "Full Name",
+    "alreadyHaveAccount": "Already have an account?",
+    "saveChanges": "Save Changes",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logVitals": "Log Vitals",
+    "findDoctor": "Find a Doctor",
+    "adminMenu": "Admin Menu",
+    "patientMenu": "Patient Menu",
+    "analytics": "Analytics",
+    "patientManagement": "Patient Management",
+    "doctorManagement": "Doctor Management",
+    "guidelines": "Guidelines",
+    "menu": "Menu",
+    "healthHistory": "Health History",
+    "myAppointments": "My Appointments",
+    "notifications": "Notifications",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "save": "Save"
+  },
+  "loginPage": {
+    "title": "Login to HelseFlow"
+  },
+  "registerPage": {
+    "title": "Create an Account"
+  },
+  "patientDashboard": {
+    "title": "Patient Dashboard",
+    "riskAssessment": "AI Risk Assessment",
+    "latestVitals": "Latest Vitals",
+    "healthRecommendation": "Health Recommendation",
+    "loadingDashboard": "Loading dashboard data...",
+    "errorLoadingDashboard": "Error loading dashboard data.",
+    "overallRiskLevel": "Overall Risk Level",
+    "riskLevel": "Risk Level",
+    "riskAssessmentDate": "Last assessed:",
+    "lastUpdated": "Last updated:",
+    "noVitalsRecorded": "No vital signs recorded yet.",
+    "recommendationText": "Based on your recent data, the Helsedirektoratet recommends reducing your salt intake.",
+    "noRiskAssessment": "No risk assessment available yet.",
+    "noRecommendations": "No recommendations available at this time.",
+    "contributingFactors": "Contributing Factors",
+    "riskType": {
+      "hypertension": "Hypertension",
+      "diabetes": "Diabetes",
+      "obesity": "Obesity"
+    }
+  },
+  "profilePage": {
+    "title": "My Profile",
+    "age": "Age",
+    "region": "Region",
+    "riskFactors": "Risk Factors (comma-separated)"
+  },
+  "logVitalsPage": {
+    "title": "Log Your Daily Vitals",
+    "bloodPressureSystolic": "Blood Pressure (Systolic)",
+    "bloodPressureDiastolic": "Blood Pressure (Diastolic)",
+    "pulse": "Pulse (BPM)",
+    "weight": "Weight (kg)",
+    "howAreYouFeeling": "How are you feeling today?",
+    "moodAwful": "Awful",
+    "moodBad": "Bad",
+    "moodOkay": "Okay",
+    "moodGood": "Good",
+    "moodGreat": "Great",
+    "saveLog": "Save Log"
+  },
+  "findDoctorPage": {
+    "title": "Find a Doctor",
+    "searchPlaceholder": "Search by doctor's name...",
+    "allSpecialties": "All Specialties",
+    "viewProfileAndBook": "View Profile & Book",
+    "loadingDoctors": "Loading doctors...",
+    "failedToLoadDoctors": "Failed to load doctors.",
+    "noDoctorsFound": "No doctors found matching your criteria."
+  },
+  "doctorProfilePage": {
+    "title": "Doctor Profile: {{name}}",
+    "bioPlaceholder": "Dr. {{name}} is a highly experienced {{specialty}} with a passion for patient care. They have been practicing for over 15 years and are dedicated to providing personalized treatment plans.",
+    "bookAppointment": "Book an Appointment",
+    "calendarPlaceholder": "Booking calendar will be here.",
+    "confirmBooking": "Confirm Booking",
+    "loadingProfile": "Loading doctor profile...",
+    "errorLoadingProfile": "Error loading doctor profile.",
+    "doctorNotFound": "Doctor not found.",
+    "bookingError": "Failed to book appointment. Please try again.",
+    "bookingSuccess": "Appointment booked successfully!",
+    "bookingInProgress": "Booking..."
+  },
+  "appointmentCalendar": {
+    "availableSlots": "Available Slots",
+    "noSlotsAvailable": "No available slots for this doctor."
+  },
+  "healthHistoryPage": {
+    "title": "Health History",
+    "loadingVitals": "Loading vital logs...",
+    "errorLoadingVitals": "Error loading vital logs.",
+    "noVitalsFound": "No vital logs found.",
+    "bloodPressureTrends": "Blood Pressure Trends",
+    "pulseAndWeightTrends": "Pulse and Weight Trends",
+    "systolic": "Systolic",
+    "diastolic": "Diastolic",
+    "pulse": "Pulse",
+    "weight": "Weight"
+  },
+  "myAppointmentsPage": {
+    "title": "My Appointments",
+    "loadingAppointments": "Loading appointments...",
+    "errorLoadingAppointments": "Error loading appointments.",
+    "noAppointmentsFound": "No appointments found.",
+    "doctor": "Doctor",
+    "specialty": "Specialty",
+    "time": "Time",
+    "reason": "Reason",
+    "status": "Status"
+  },
+  "notificationsPage": {
+    "title": "Notifications",
+    "loadingNotifications": "Loading notifications...",
+    "errorLoadingNotifications": "Error loading notifications.",
+    "unread": "Unread",
+    "read": "Read",
+    "view": "View",
+    "markAsRead": "Mark as Read",
+    "noNotifications": "No notifications to display."
+  },
+  "patientDetailPage": {
+    "title": "Patient Details: {{name}}",
+    "loadingPatient": "Loading patient details...",
+    "errorLoadingPatient": "Error loading patient details.",
+    "patientNotFound": "Patient not found.",
+    "profileInformation": "Profile Information",
+    "appointments": "Appointments",
+    "appointmentPlaceholder": "Appointment details will be displayed here.",
+    "noAppointments": "No appointments found for this patient."
+  },
+  "adminDashboard": {
+    "title": "Admin Dashboard",
+    "regionalHealthStatistics": "Regional Health Statistics",
+    "mapVisualization": "Map visualization will be here."
+  },
+  "patientListPage": {
+    "title": "Patient Management",
+    "searchPlaceholder": "Search patients...",
+    "addNewPatient": "Add New Patient",
+    "name": "Name",
+    "email": "Email",
+    "age": "Age",
+    "region": "Region",
+    "actions": "Actions",
+    "view": "View",
+    "delete": "Delete",
+    "loadingPatients": "Loading patients...",
+    "failedToLoadPatients": "Failed to load patients.",
+    "noPatientsFound": "No patients found matching your criteria.",
+    "minAge": "Min Age",
+    "maxAge": "Max Age",
+    "allRegions": "All Regions",
+    "Oslo": "Oslo",
+    "Bergen": "Bergen",
+    "Trondheim": "Trondheim",
+    "Stavanger": "Stavanger"
+  },
+  "doctorManagementPage": {
+    "title": "Doctor Management",
+    "searchPlaceholder": "Search doctors...",
+    "addNewDoctor": "Add New Doctor",
+    "confirmDelete": "Are you sure you want to delete this doctor?",
+    "editDoctor": "Edit Doctor",
+    "addDoctor": "Add Doctor",
+    "loadingDoctors": "Loading doctors...",
+    "failedToLoadDoctors": "Failed to load doctors.",
+    "noDoctorsFound": "No doctors found.",
+    "table": {
+      "name": "Name",
+      "specialty": "Specialty",
+      "location": "Location",
+      "actions": "Actions",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "form": {
+      "name": "Name",
+      "specialty": "Specialty",
+      "location": "Location",
+      "imageUrl": "Image URL"
+    }
+  },
+  "guidelinesPage": {
+    "title": "National Health Guidelines",
+    "searchPlaceholder": "Search guidelines...",
+    "allCategories": "All Categories",
+    "readMore": "Read More"
+  }
+}
